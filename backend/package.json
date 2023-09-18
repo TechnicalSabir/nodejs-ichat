@@ -1,0 +1,17 @@
+{
+  "name": "ichat",
+  "version": "1.0.0",
+  "description": "iChat application for group messaging: created using socket.io\" ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ichat"
+  ],
+  "author": "JIM",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.0"
+  }
+}

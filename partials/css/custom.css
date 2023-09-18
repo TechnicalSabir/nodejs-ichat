@@ -1,0 +1,55 @@
+.online_user {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 90px;
+    text-align: center;
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: #f5f5f5;
+    font-size: 12px;
+}
+
+#frame .content .messages ul li.sent div {
+    background: #435f7a;
+    color: #f5f5f5;
+}
+
+#frame .content .messages ul li div {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 205px;
+    line-height: 130%;
+}
+
+@media screen and (min-width: 735px) {
+    #frame .content .messages ul li div {
+        max-width: 300px;
+    }
+}
+
+#frame .content .messages ul li.replies div {
+    background: #f5f5f5;
+    float: right;
+}
+
+#frame .content .messages ul li div {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    max-width: 205px;
+    line-height: 130%;
+}
+
+@media screen and (min-width: 735px) {
+    #frame .content .messages ul li div {
+        max-width: 300px;
+    }
+}
+
+.sender-name {
+    float: right;
+    margin: 0px 10px;
+    color: darkgrey;
+    font-size: 10px;
+}

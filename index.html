@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class=''>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet'
+        type='text/css'>
+    <script src="https://use.typekit.net/hoy3lrg.js"></script>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="partials/css/style.css">
+    <link rel="stylesheet" href="partials/css/custom.css">
+    <script src="http://127.0.0.1:8000/socket.io/socket.io.js"></script>
+    <title>Group Chat | Socket.io</title>
+</head>
+
+<body style="background: linear-gradient(to right, #787f95, #859398);">
+    <div id="frame" style="background: linear-gradient(to right, #787f95, #859398); padding:1.9rem 0rem;">
+        <div class="content" style="height: 90vh; box-shadow: 0rem 0rem 40px 10px; border-radius: 5px;">
+            <h3 style="font-size: 20px; font-weight: bold; opacity: 0.5; text-align: center; margin-top: 1.5rem;">
+                Welcome to Group Chat.
+            </h3>
+            <div class="messages">
+                <ul></ul>
+            </div>
+            <div class="message-input">
+                <div class="wrap">
+                    <input type="text" placeholder="Write your message..." />
+                    <i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+                    <button class="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src="partials/js/client.js"></script>
+</body>
+
+</html>
